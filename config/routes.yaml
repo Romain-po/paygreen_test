@@ -1,0 +1,14 @@
+user:
+  resource: "../src/Domains/User/Controller"
+  type:  annotation
+  name_prefix: api_user_
+  prefix: /api/user/
+  defaults:
+    _format: json
+transaction:
+  resource: "../src/Domains/Transaction/Controller"
+  type:  annotation
+  name_prefix: api_transaction_
+  prefix: /api/transaction/
+  defaults:
+    _format: json
